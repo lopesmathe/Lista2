@@ -75,8 +75,8 @@ public void PegarNumeroF() {
         return num2F;
     }
 
-    public int VoltarNumero3F(){
-        return num3;
+    public float VoltarNumero3F(){
+        return num3F;
     }
 
     public int ContaDeAdição(int a, int b){
