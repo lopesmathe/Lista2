@@ -26,6 +26,8 @@ public class alista1 {
                 ex9.run();
             case 10:
                 ex10.run();
+            case 11:
+                ex11.run();
                 break;
         }
     }
