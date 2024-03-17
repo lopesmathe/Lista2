@@ -8,6 +8,8 @@ public class alista1 {
         switch (escolha) {
             case 1:
                 ex1.run();
+            case 2:
+                ex2.run();
                 break;
         }
     }
