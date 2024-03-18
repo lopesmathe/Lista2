@@ -5,7 +5,6 @@ public class ex11 {
        int C = 0;
            for(int i = A.length - 1; i >= 0; i--){
                 C += A[i] * B[i];
-
            }
            System.out.println("o resutado é"); 
                System.out.println(C);
