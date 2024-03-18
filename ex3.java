@@ -15,6 +15,5 @@ public class ex3 {
         for(int i = 0; i < slot; i++){   
             System.out.println(vet[i]);
             }
-
     }
 }
