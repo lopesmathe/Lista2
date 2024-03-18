@@ -44,6 +44,8 @@ public class alista1 {
                 break;
             case 13:
                 ex13.run();
+            case 14:
+                ex14.run();
                 break;
         }
     }
