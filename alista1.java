@@ -3,8 +3,8 @@ import java.util.Scanner;
 public class Alista1 {
     public static void main(String[] args) {
         Scanner Escolha = new Scanner(System.in);
-        System.out.println("escolha qual ex vc vai querer!!!");
-        int escolha = Escolha.nextInt();
+        System.out.println("escolha qual Ex vc vai querer!!!");
+        int escolha = Escolha.nExtInt();
         switch (escolha) {
             case 1:
                 Ex1.run();

@@ -1,5 +1,5 @@
 public class Ex2 {
-    public static void run(){
+    public static void run() {
         System.out.println("quantos numeros vc quer ?");
         Wbiblioteca bb = new Wbiblioteca();
         bb.PegarNumero();

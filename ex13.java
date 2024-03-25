@@ -1,14 +1,15 @@
 public class Ex13 {
     public static void run() {
-        int n = 8; 
+        int n = 8;
         int[] fibonacci = fibonacciSequence(n);
         System.out.print("Vetor com os " + n + " primeiros termos da sequência de Fibonacci: ");
         for (int i = 0; i < n; i++) {
             System.out.print(fibonacci[i] + " ");
         }
     }
+
     public static int[] fibonacciSequence(int n) {
-        int[] fibonacci = new int[n];        
+        int[] fibonacci = new int[n];
         if (n >= 1) {
             fibonacci[0] = 1;
         }
