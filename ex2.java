@@ -1,7 +1,7 @@
-public class ex2 {
+public class Ex2 {
     public static void run(){
         System.out.println("quantos numeros vc quer ?");
-        wbiblioteca bb = new wbiblioteca();
+        Wbiblioteca bb = new Wbiblioteca();
         bb.PegarNumero();
         int slote = bb.VoltarNumero1();
         int[] var = new int[slote];

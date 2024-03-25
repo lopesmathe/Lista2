@@ -1,7 +1,7 @@
-public class ex3 {
+public class Ex3 {
     public static void run(){
         System.out.println("Digite quantos numeros vc quer");
-        wbiblioteca bb = new wbiblioteca();
+        Wbiblioteca bb = new Wbiblioteca();
         bb.PegarNumero();
         int slot = bb.VoltarNumero1();
         int[] vet = new int[slot];

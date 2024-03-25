@@ -1,11 +1,11 @@
-public class ex6 {
+public class Ex6 {
     public static void run(){
         float[] vetNota = new float[5];
         float[] vetPeso = new float[5];
         float somaPonderada = 0;
         float somaPesos = 0;
         System.out.println("Digite as 5 notas e 5 pesos:");
-        wbiblioteca bb = new wbiblioteca(); 
+        Wbiblioteca bb = new Wbiblioteca(); 
         for(int i = 0; i < 5; i++){
             System.out.println("Nota " + (i+1) + ":");
             bb.PegarNumeroF();

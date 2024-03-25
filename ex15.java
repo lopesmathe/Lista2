@@ -1,5 +1,5 @@
     import java.util.Scanner;
-public class ex15 {
+public class Ex15 {
     public static void run() {
         Scanner scanner = new Scanner(System.in);
         int[] vetor = new int[5];

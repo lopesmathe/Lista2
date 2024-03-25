@@ -1,7 +1,7 @@
-public class ex1 {
+public class Ex1 {
     public static void run(){
         int media = 0;
-        wbiblioteca b = new wbiblioteca();
+        Wbiblioteca b = new Wbiblioteca();
         System.out.println("me");
         int[] vet = new int[5];
 

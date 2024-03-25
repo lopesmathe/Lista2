@@ -1,7 +1,7 @@
-public class ex4 {
+public class Ex4 {
     public static void run(){
         int n = 20;
-        wbiblioteca bb = new wbiblioteca();
+        Wbiblioteca bb = new Wbiblioteca();
         bb.PegarNumero();
         int slot = bb.VoltarNumero1();
         int[] vet = new int[slot];

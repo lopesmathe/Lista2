@@ -1,4 +1,4 @@
-public class ex13 {
+public class Ex13 {
     public static void run() {
         int n = 8; 
         int[] fibonacci = fibonacciSequence(n);

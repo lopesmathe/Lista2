@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class wbiblioteca {
+public class Wbiblioteca {
 
     private int num1;
     private int num2;

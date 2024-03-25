@@ -1,4 +1,4 @@
-public class ex9 {
+public class Ex9 {
     public static void run(){
        int[] A = {1, 2, 3, 4, 5};
        int[] B = {11, 22, 33, 44, 55};

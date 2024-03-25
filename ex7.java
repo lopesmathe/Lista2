@@ -1,8 +1,8 @@
-public class ex7 {
+public class Ex7 {
     public static void run(){
         int[] vet1 = new int[5];
         int[] vet2 = new int[5];
-        wbiblioteca bb = new wbiblioteca();
+        Wbiblioteca bb = new Wbiblioteca();
         System.out.println("vet 1");
         for(int i = 0; i < 5; i++){
             bb.PegarNumero();

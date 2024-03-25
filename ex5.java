@@ -1,6 +1,6 @@
-public class ex5 {
+public class Ex5 {
     public static void run(){
-        wbiblioteca bb = new wbiblioteca();
+        Wbiblioteca bb = new Wbiblioteca();
         bb.PegarNumero();
         int slot = bb.VoltarNumero1();
         int n = 4;
