@@ -12,49 +12,49 @@ public class Wbiblioteca {
     public void PegarNumeros() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o primeiro número:");
-        num1 = scanner.nExtInt();
+        num1 = scanner.nextInt();
         System.out.println("Digite o segundo número:");
-        num2 = scanner.nExtInt();
+        num2 = scanner.nextInt();
     }
 
     public void PegarNumerosF() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o primeiro número:");
-        num1F = scanner.nExtFloat();
+        num1F = scanner.nextFloat();
         System.out.println("Digite o segundo número:");
-        num2F = scanner.nExtFloat();
+        num2F = scanner.nextFloat();
     }
 
     public void PegarNumeross() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o primeiro número:");
-        num1 = scanner.nExtInt();
+        num1 = scanner.nextInt();
         System.out.println("Digite o segundo número:");
-        num2 = scanner.nExtInt();
+        num2 = scanner.nextInt();
         System.out.println("Digite o terceiro número:");
-        num3 = scanner.nExtInt();
+        num3 = scanner.nextInt();
     }
 
     public void PegarNumerossF() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o primeiro número:");
-        num1F = scanner.nExtFloat();
+        num1F = scanner.nextFloat();
         System.out.println("Digite o segundo número:");
-        num2F = scanner.nExtFloat();
+        num2F = scanner.nextFloat();
         System.out.println("Digite o terceiro número:");
-        num3F = scanner.nExtFloat();
+        num3F = scanner.nextFloat();
     }
 
     public void PegarNumero() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o número:");
-        num1 = scanner.nExtInt();
+        num1 = scanner.nextInt();
     }
 
     public void PegarNumeroF() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Digite o número:");
-        num1F = scanner.nExtFloat();
+        num1F = scanner.nextFloat();
     }
 
     public int VoltarNumero1() {

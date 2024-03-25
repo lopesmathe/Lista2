@@ -6,7 +6,7 @@ public class Ex14 {
         int[] vetor = new int[5];
         System.out.println("Digite os 5 elementos do vetor:");
         for (int i = 0; i < 5; i++) {
-            vetor[i] = scanner.nExtInt();
+            vetor[i] = scanner.nextInt();
         }
         int indiceMaior = 0;
         for (int i = 1; i < 5; i++) {
