@@ -5,7 +5,7 @@ public class Ex2 {
         bb.PegarNumero();
         int slote = bb.VoltarNumero1();
         int[] var = new int[slote];
-        for(int i = 0; i < slote; i++){
+        for (int i = 0; i < slote; i++) {
             bb.PegarNumero();
             var[i] = bb.VoltarNumero1();
         }
@@ -14,23 +14,36 @@ public class Ex2 {
         boolean negativosPrinted = false;
         boolean igual0 = false;
 
-        for(int i = 0; i < slote; i++){
+        for (int i = 0; i < slote; i++) {
             if (var[i] < 0 && !negativosPrinted) {
-                System.out.println(var[i]);
                 System.out.println("os numeros negativo sao...");
                 negativosPrinted = true;
             }
-            else if (var[i] > 0 && !positivosPrinted) {
+            if (var[i] < 0) {
+                System.out.println(var[i]);
+
+            }
+        }
+
+        for (int i = 0; i < slote; i++) {
+            if (var[i] > 0 && !positivosPrinted) {
                 System.out.println("os numeros positivos sao...");
                 positivosPrinted = true;
-                
             }
-            if (var[i] == 0 && !igual0){
+            if (var[i] > 0) {
+                System.out.println(var[i]);
+
+            }
+        }
+        for (int i = 0; i < slote; i++) {
+            if (var[i] == 0 && !igual0) {
                 System.out.println("os numeros 0 sao...");
                 igual0 = true;
             }
-            System.out.println(var[i]);
+            if (var[i] == 0) {
+                System.out.println(var[i]);
 
+            }
         }
 
     }
